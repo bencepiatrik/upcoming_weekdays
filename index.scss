@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 20vh;
+  width: 100vw;
+  height: 80vh;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  .date {
+    display: grid;
+    grid-template-columns: 35% 1fr 1fr 35%;
+    height: 10vh;
+    margin: auto 0;
+    align-items: center;
+    h1 {
+      grid-column: 2/3;
+    }
+  }
+}
